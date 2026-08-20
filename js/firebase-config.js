@@ -11,15 +11,15 @@ import {
   getStorage 
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js";
 
-// Replace these values with your actual Firebase Project Configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyChWcL-qMiZx9g8pu_qhtCOblgtrTS2vDA",
+  authDomain: "inkly-website.firebaseapp.com",
+  projectId: "inkly-website",
+  storageBucket: "inkly-website.firebasestorage.app",
+  messagingSenderId: "656901474322",
+  appId: "1:656901474322:web:9d4c9a90d991f2d59af0cb"
 };
+
 
 // Initialize Core Services
 const app = initializeApp(firebaseConfig);
